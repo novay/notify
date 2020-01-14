@@ -11,17 +11,17 @@
 Using Composer
 
 ```
-composer require codecourse/notify
+composer require novay/notify
 ```
 
 Optionally add the service provider and the Facade to `config/app.php`
 
 ```php
-Codecourse\Notify\NotifyServiceProvider::class,
+Novay\Notify\NotifyServiceProvider::class,
 ```
 
 ```php
-'Notify' => Codecourse\Notify\Facades\Notify::class,
+'Notify' => Novay\Notify\Facades\Notify::class,
 ```
 
 > Note, there is a notify() function available, so unless you really want to use the Facade, there's no need to include it.
