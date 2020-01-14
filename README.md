@@ -14,18 +14,6 @@ Using Composer
 composer require novay/notify
 ```
 
-Optionally add the service provider and the Facade to `config/app.php`
-
-```php
-Novay\Notify\NotifyServiceProvider::class,
-```
-
-```php
-'Notify' => Novay\Notify\Facades\Notify::class,
-```
-
-> Note, there is a notify() function available, so unless you really want to use the Facade, there's no need to include it.
-
 ## Usage
 
 ### Basic
@@ -80,5 +68,5 @@ Then, in your view.
 
 > The above example uses SweetAlert, but the flexibily of Notify means you can easily use it with any JavaScript alert solution.
 
-### License
+## License
 Laravel Notify is licensed under the MIT license. Enjoy!
