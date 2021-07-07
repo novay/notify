@@ -29,7 +29,7 @@
                 "Novay\\Notify\\NotifyServiceProvider"
             ],
             "aliases": {
-                "Notify" : "Novay\\Notify\\Facade\\Notify"
+                "Notify" : "Novay\\Notify\\Facades\\Notify"
             }
         }
     },
