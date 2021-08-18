@@ -16,7 +16,7 @@
             "Novay\\Notify\\": "src/"
         },
         "files": [
-            "src/Novay/Notify/Helpers.php"
+            "src/Helpers.php"
         ]
     },
     "extra": {
