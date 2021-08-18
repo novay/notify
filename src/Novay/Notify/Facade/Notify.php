@@ -1,6 +1,6 @@
 <?php
 
-namespace Novay\Notify\Facades;
+namespace Novay\Notify\Facade;
 
 use Illuminate\Support\Facades\Facade;
 

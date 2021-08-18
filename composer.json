@@ -1,26 +1,22 @@
 {
     "name": "novay/notify",
-    "description": "Flexible flash notifications for Laravel (Support 6+)",
+    "description": "Flexible flash notifications for Laravel",
     "license": "MIT",
     "authors": [
         {
             "name": "Noviyanto Rahmadi",
             "email": "novay@enterwind.com"
-        }, 
-        {
-            "name": "Alex Garrett",
-            "email": "alex@codecourse.com"
         }
     ],
     "require": {
-        "php": ">=5.4.0"
+        "php": "^7.3|^8.0"
     },
     "autoload": {
         "psr-4": {
             "Novay\\Notify\\": "src/"
         },
         "files": [
-            "src/Novay/Notify/functions.php"
+            "src/Novay/Notify/Helpers.php"
         ]
     },
     "extra": {
@@ -29,12 +25,13 @@
                 "Novay\\Notify\\NotifyServiceProvider"
             ],
             "aliases": {
-                "Notify" : "Novay\\Notify\\Facades\\Notify"
+                "Notify" : "Novay\\Notify\\Facade\\Notify"
             }
         }
     },
     "config": {
         "sort-packages": true
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "dev", 
+    "prefer-stable": true
 }
