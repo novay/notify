@@ -11,7 +11,7 @@
 Using Composer
 
 ```
-composer require novay/notify
+composer require novay/notify "1.6"
 ```
 
 ## Usage
